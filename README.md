@@ -50,10 +50,6 @@ digital-intake-form/
 ├── README.md                       # Assignment documentation
 └── package.json (optional at root if monorepo)
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Getting Started
