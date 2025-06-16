@@ -30,23 +30,25 @@ This project simulates a modern, scalable e-Form experience for replacing outdat
 ## 🗂️ Project Structure
 
 digital-intake-form/
-├── client/ # React frontend
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Form.jsx # Main form component
-│ │ │ └── Form.css # Component styling
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── main.jsx
-│ │ └── index.css
-│ └── vite.config.js # Vite configuration
 │
-├── server/ # Express backend
-│ ├── server.js # API logic
-│ └── mockdata.json # Simulated prefill data
+├── client/                         # React frontend
+│   ├── public/                     # Static assets
+│   └── src/
+│       ├── components/
+│       │   ├── Form.jsx            # Main dynamic intake form
+│       │   └── Form.css            # Form styling (basic, modern)
+│       ├── App.jsx                 # App wrapper
+│       ├── App.css                 # Centers form on screen
+│       ├── index.css               # Global CSS + reset
+│       └── main.jsx                # React app entry point
 │
-├── README.md # Project documentation
-└── .gitignore
+├── server/                         # Express backend
+│   ├── server.js                   # REST API for prefill + submission
+│   └── mockdata.json               # Simulated backend prefill data
+│
+├── .gitignore                      # Node/Vite ignores
+├── README.md                       # Assignment documentation
+└── package.json (optional at root if monorepo)
 
 yaml
 Copy
