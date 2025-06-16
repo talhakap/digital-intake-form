@@ -1,6 +1,6 @@
 # 📄 Digital Service Intake Form — Proof of Concept
 
-This project simulates a modern, scalable e-Form experience for replacing outdated PDF-based intake forms. Built using **React** for the frontend and **Express.js** for the backend, it demonstrates intelligent form behavior, conditional logic, prefill from an API, and secure data handling — as required for the Developer Interview Assignment (**Job ID: 228520**).
+This project simulates a modern, scalable e-Form experience for replacing outdated PDF-based intake forms. Built using **React** for the frontend and **Express.js** for the backend, it demonstrates intelligent form behavior, conditional logic, prefill from an API, and secure data handling — as required for the Developer Interview Assignment.
 
 ---
 
@@ -118,9 +118,6 @@ Support for multilingual forms
 🧪 Demo & Submission Notes
 This form will be demonstrated in a live interview (max 15 minutes).
 The code has been submitted as per the assignment instructions to:
-
-📩 Farnaz.Goortani@ontario.ca
-🗓️ Deadline: June 16th, 9:00 AM
 
 👤 Author
 Talha Kapadiya
